@@ -14,7 +14,7 @@ An intelligent SRE assistant that uses the ReAct (Reason + Act) pattern to monit
 ## Prerequisites
 
 1. Python 3.8 or higher
-2. Docker (for GitHub MCP server)
+2. Node.js and npm (for GitHub MCP server)
 3. API keys for chosen LLM provider (OpenAI or Anthropic)
 4. GitHub Personal Access Token with appropriate permissions:
    - `repo` (full repository access)
@@ -119,7 +119,7 @@ Recommendations:
 The application uses:
 - PydanticAI for the agent framework
 - ReAct pattern for intelligent decision-making
-- GitHub MCP server for repository interaction
+- GitHub MCP server (via npx) for repository interaction
 - Pydantic models for structured data handling
 - Async/await for efficient API interactions
 
